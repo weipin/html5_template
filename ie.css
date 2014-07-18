@@ -1,0 +1,20 @@
+/*
+Title:		IE patches
+Author: 	dan@simplebits.com
+*/
+
+/* nav fix */
+
+*:first-child+html #nav li {
+	width: 24.9%;
+}
+
+/* self-clear floats */
+
+* html .block { /* IE6 */
+	height: 1%;
+}
+
+*:first-child+html .block { /* IE7 */
+	min-height: 1px;
+}
