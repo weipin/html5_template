@@ -1,0 +1,14 @@
+@import url(reset.css);
+@import url(core.css);
+@import url(ie.css);
+
+strong {
+  font-weight: bold;
+}
+
+#GROUND {
+}
+
+#HEADER {
+  margin: 2px 0 2px 2px;
+}
